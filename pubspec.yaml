@@ -1,0 +1,44 @@
+name: confidence_boost
+description: Application mobile pour améliorer la planification et la confiance en soi
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # UI components
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_staggered_animations: ^1.1.1
+  
+  # Icons
+  iconsax: ^0.0.8
+  # UUID generation
+  uuid: ^4.1.0
+  #datatime
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
